@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "myvue": "bin/vue.js",
+    "myvue-init": "bin/vue-init.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.9.0",
+    "inquirer": "^6.0.0",
+    "tildify": "^1.2.0",
+    "user-home": "^2.0.0"
+  }
 }
